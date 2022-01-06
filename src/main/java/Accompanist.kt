@@ -1,0 +1,17 @@
+object Accompanist {
+    const val version = "0.20.3"
+    const val insets = "com.google.accompanist:accompanist-insets:$version"
+    const val insets_ui = "com.google.accompanist:accompanist-insets-ui:$version"
+    const val systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:$version"
+    const val appcompat_theme = "com.google.accompanist:accompanist-appcompat-theme:$version"
+    const val pager = "com.google.accompanist:accompanist-pager:$version"
+    const val pager_indicators = "com.google.accompanist:accompanist-pager-indicators:$version"
+    const val swiperefresh = "com.google.accompanist:accompanist-swiperefresh:$version"
+    const val placeholder = "com.google.accompanist:accompanist-placeholder:$version"
+    const val placeholder_material = "com.google.accompanist:accompanist-placeholder-material:$version"
+    const val drawablepainter = "com.google.accompanist:accompanist-drawablepainter:$version"
+    const val flowlayout = "com.google.accompanist:accompanist-flowlayout:$version"
+    const val permissions = "com.google.accompanist:accompanist-permissions:$version"
+    const val navigation_animation = "com.google.accompanist:accompanist-navigation-animation:$version"
+    const val navigation_material = "com.google.accompanist:accompanist-navigation-material:$version"
+}
