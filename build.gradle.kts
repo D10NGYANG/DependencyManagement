@@ -8,7 +8,6 @@ repositories {
 }
 
 group = "com.github.D10NG"
-version = "1.0-SNAPSHOT"
 
 publishing {
     publications {
