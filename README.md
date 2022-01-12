@@ -14,6 +14,6 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.D10NGYANG:DependencyManagement:1.3")
+    implementation("com.github.D10NGYANG:DependencyManagement:1.4")
 }
 ```
