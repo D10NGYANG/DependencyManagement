@@ -1,6 +1,6 @@
 object Hailiao {
     object Beidou {
-        const val version = "1.0.20"
+        const val version = "1.0.21"
         const val core = "com.hailiao.beidou:BDCore:$version"
         const val compiler = "com.hailiao.beidou:BDCompiler:$version"
         const val bdproto2p1 = "com.hailiao.beidou:BDProto2p1:$version"
@@ -10,7 +10,7 @@ object Hailiao {
         const val smcompiler = "com.hailiao.beidou:BDSMCompiler:$version"
         const val smprotoeim = "com.hailiao.beidou:BDSMProtoEIM:$version"
         const val smprotodts = "com.hailiao.beidou:BDSMProtoDTS:$version"
-        const val bluetoothlib = "com.hailiao.beidou:BluetoothLib:1.0.2"
+        const val bluetoothlib = "com.hailiao.beidou:BluetoothLib:1.0.3"
     }
     object Maven {
         const val username = "ydl"
