@@ -5,7 +5,7 @@ object D10NG {
     const val date_fix_8_coreLibraryDesugaring = "com.android.tools:desugar_jdk_libs:1.1.5"
     const val stringUtil = "com.github.D10NGYANG:DLStringUtil:1.12"
     const val textUtil = "com.github.D10NGYANG:DLTextUtil:1.2.3"
-    const val gpsUtil = "com.github.D10NGYANG:DLGpsUtil:1.7"
+    const val gpsUtil = "com.github.D10NGYANG:DLGpsUtil:1.8"
     const val latlngUtil = "com.github.D10NGYANG:DLLatLngUtil:1.2"
     const val retrofitCoroutines = "com.github.D10NGYANG:DL10RetrofitCoroutines:1.4"
     const val moshiUtil = "com.github.D10NGYANG:DLMoshiUtil:1.2"

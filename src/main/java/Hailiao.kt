@@ -11,7 +11,7 @@ object Hailiao {
         const val smprotoeim = "com.hailiao.beidou:BDSMProtoEIM:$version"
         const val smprotodts = "com.hailiao.beidou:BDSMProtoDTS:$version"
         const val bluetoothlib = "com.hailiao.beidou:BluetoothLib:1.0.3"
-        const val serialportlib = "com.hailiao.beidou:SerialPortLib:1.0.0"
+        const val serialportlib = "com.hailiao.beidou:SerialPortLib:1.0.1"
     }
     object Maven {
         const val username = "ydl"
