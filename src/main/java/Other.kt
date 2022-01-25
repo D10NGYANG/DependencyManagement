@@ -7,5 +7,6 @@ object Other {
             const val exclude_group = "androidx.appcompat"
         }
         const val debug_db = "com.amitshekhar.android:debug-db:1.0.6"
+        const val leakcanary = "com.squareup.leakcanary:leakcanary-android:2.7"
     }
 }
