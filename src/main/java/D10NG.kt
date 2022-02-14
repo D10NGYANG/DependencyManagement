@@ -10,5 +10,5 @@ object D10NG {
     const val retrofitCoroutines = "com.github.D10NGYANG:DL10RetrofitCoroutines:1.4"
     const val moshiUtil = "com.github.D10NGYANG:DLMoshiUtil:1.2"
     const val sideBar_compose = "com.github.D10NGYANG:DLSideBar_Compose:1.0.2"
-    const val basicJetpackComposeApp = "com.github.D10NGYANG:DLBasicJetpackComposeApp:1.0.3"
+    const val basicJetpackComposeApp = "com.github.D10NGYANG:DLBasicJetpackComposeApp:1.0.6"
 }
