@@ -12,7 +12,7 @@ object Android {
     }
     object X {
         const val core_ktx = "androidx.core:core-ktx:1.7.0"
-        const val appcompat = "androidx.appcompat:appcompat:1.4.0"
+        const val appcompat = "androidx.appcompat:appcompat:1.4.1"
     }
     object Google {
         const val material = "com.google.android.material:material:1.4.0"

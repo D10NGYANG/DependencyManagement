@@ -9,7 +9,7 @@ object Compose {
         const val material_icons_core = "androidx.compose.material:material-icons-core:$version"
         const val material_icons_extended = "androidx.compose.material:material-icons-extended:$version"
         const val navigation = "androidx.navigation:navigation-compose:2.4.0-alpha07"
-        const val activity = "androidx.activity:activity-compose:1.4.0"
+        const val activity = "androidx.activity:activity-compose:1.5.0"
         const val livedata = "androidx.compose.runtime:runtime-livedata:$version"
     }
 }
