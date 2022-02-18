@@ -6,6 +6,7 @@ object Other {
             const val debug = "com.github.simplepeng.SpiderMan:spiderman:$version"
             const val exclude_group = "androidx.appcompat"
         }
+        const val email = "com.github.nedimf:maildroid:v0.0.8-release"
         const val debug_db = "com.amitshekhar.android:debug-db:1.0.6"
         const val leakcanary = "com.squareup.leakcanary:leakcanary-android:2.7"
     }

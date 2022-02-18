@@ -1,5 +1,5 @@
 object D10NG {
-    const val appUtil = "com.github.D10NGYANG:DLAppUtil:1.7"
+    const val appUtil = "com.github.D10NGYANG:DLAppUtil:1.10"
     const val coroutinesUtil = "com.github.D10NGYANG:DLCoroutinesUtil:0.2"
     const val dateUtil = "com.github.D10NGYANG:DLDateUtil:1.4"
     const val date_fix_8_coreLibraryDesugaring = "com.android.tools:desugar_jdk_libs:1.1.5"
@@ -11,4 +11,5 @@ object D10NG {
     const val moshiUtil = "com.github.D10NGYANG:DLMoshiUtil:1.2"
     const val sideBar_compose = "com.github.D10NGYANG:DLSideBar_Compose:1.0.2"
     const val basicJetpackComposeApp = "com.github.D10NGYANG:DLBasicJetpackComposeApp:1.0.6"
+    const val networkAssistant = "com.github.D10NGYANG:NetworkDebugAssistant:0.1.7"
 }
