@@ -1,17 +1,16 @@
 object Hailiao {
     object Beidou {
-        const val version = "1.0.21"
-        const val core = "com.hailiao.beidou:BDCore:$version"
-        const val compiler = "com.hailiao.beidou:BDCompiler:$version"
-        const val bdproto2p1 = "com.hailiao.beidou:BDProto2p1:$version"
-        const val bdprotohl = "com.hailiao.beidou:BDProtoHL:$version"
-        const val bdprotogw = "com.hailiao.beidou:BDProtoGW:$version"
-        const val smcore = "com.hailiao.beidou:BDSMCore:$version"
-        const val smcompiler = "com.hailiao.beidou:BDSMCompiler:$version"
-        const val smprotoeim = "com.hailiao.beidou:BDSMProtoEIM:$version"
-        const val smprotodts = "com.hailiao.beidou:BDSMProtoDTS:$version"
-        const val bluetoothlib = "com.hailiao.beidou:BluetoothLib:1.0.3"
-        const val serialportlib = "com.hailiao.beidou:SerialPortLib:1.0.1"
+        fun core(ver: String = DYNAMIC_VERSION) = "com.hailiao.beidou:BDCore:$ver"
+        fun compiler(ver: String = DYNAMIC_VERSION) = "com.hailiao.beidou:BDCompiler:$ver"
+        fun bdproto2p1(ver: String = DYNAMIC_VERSION) = "com.hailiao.beidou:BDProto2p1:$ver"
+        fun bdprotohl(ver: String = DYNAMIC_VERSION) = "com.hailiao.beidou:BDProtoHL:$ver"
+        fun bdprotogw(ver: String = DYNAMIC_VERSION) = "com.hailiao.beidou:BDProtoGW:$ver"
+        fun smcore(ver: String = DYNAMIC_VERSION) = "com.hailiao.beidou:BDSMCore:$ver"
+        fun smcompiler(ver: String = DYNAMIC_VERSION) = "com.hailiao.beidou:BDSMCompiler:$ver"
+        fun smprotoeim(ver: String = DYNAMIC_VERSION) = "com.hailiao.beidou:BDSMProtoEIM:$ver"
+        fun smprotodts(ver: String = DYNAMIC_VERSION) = "com.hailiao.beidou:BDSMProtoDTS:$ver"
+        fun bluetoothlib(ver: String = DYNAMIC_VERSION) = "com.hailiao.beidou:BluetoothLib:$ver"
+        fun serialportlib(ver: String = DYNAMIC_VERSION) = "com.hailiao.beidou:SerialPortLib:$ver"
     }
     object Maven {
         const val username = "ydl"

@@ -1,15 +1,19 @@
+val DYNAMIC_VERSION = "+"
+
 object D10NG {
-    const val appUtil = "com.github.D10NGYANG:DLAppUtil:1.10"
-    const val coroutinesUtil = "com.github.D10NGYANG:DLCoroutinesUtil:0.2"
-    const val dateUtil = "com.github.D10NGYANG:DLDateUtil:1.4"
-    const val date_fix_8_coreLibraryDesugaring = "com.android.tools:desugar_jdk_libs:1.1.5"
-    const val stringUtil = "com.github.D10NGYANG:DLStringUtil:1.12"
-    const val textUtil = "com.github.D10NGYANG:DLTextUtil:1.2.3"
-    const val gpsUtil = "com.github.D10NGYANG:DLGpsUtil:1.9"
-    const val latlngUtil = "com.github.D10NGYANG:DLLatLngUtil:1.2"
-    const val retrofitCoroutines = "com.github.D10NGYANG:DL10RetrofitCoroutines:1.4"
-    const val moshiUtil = "com.github.D10NGYANG:DLMoshiUtil:1.2"
-    const val sideBar_compose = "com.github.D10NGYANG:DLSideBar_Compose:1.0.2"
-    const val basicJetpackComposeApp = "com.github.D10NGYANG:DLBasicJetpackComposeApp:1.0.6"
-    const val networkAssistant = "com.github.D10NGYANG:NetworkDebugAssistant:0.1.7"
+    private const val group = "com.github.D10NGYANG"
+    fun DLAppUtil(ver: String = DYNAMIC_VERSION) = "$group:DLAppUtil:$ver"
+    fun DLCoroutinesUtil(ver: String = DYNAMIC_VERSION) = "$group:DLCoroutinesUtil:$ver"
+    fun DLDateUtil(ver: String = DYNAMIC_VERSION) = "$group:DLDateUtil:$ver"
+    // 正在抛弃，替换成 DLTextUtil
+    fun DLStringUtil(ver: String = DYNAMIC_VERSION) = "$group:DLStringUtil:$ver"
+    fun DLTextUtil(ver: String = DYNAMIC_VERSION) = "$group:DLTextUtil:$ver"
+    fun DLGpsUtil(ver: String = DYNAMIC_VERSION) = "$group:DLGpsUtil:$ver"
+    fun DLLatLngUtil(ver: String = DYNAMIC_VERSION) = "$group:DLLatLngUtil:$ver"
+    fun DL10RetrofitCoroutines(ver: String = DYNAMIC_VERSION) = "$group:DL10RetrofitCoroutines:$ver"
+    fun DLMoshiUtil(ver: String = DYNAMIC_VERSION) = "$group:DLMoshiUtil:$ver"
+    fun DLSideBar_Compose(ver: String = DYNAMIC_VERSION) = "$group:DLSideBar_Compose:$ver"
+    fun DLBasicJetpackComposeApp(ver: String = DYNAMIC_VERSION) = "$group:DLBasicJetpackComposeApp:$ver"
+    fun NetworkDebugAssistant(ver: String = DYNAMIC_VERSION) = "$group:NetworkDebugAssistant:$ver"
 }
+
