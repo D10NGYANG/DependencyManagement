@@ -31,6 +31,7 @@ object AndroidX {
     }
     fun navigation_compose(ver: String = DYNAMIC_VERSION) = "androidx.navigation:navigation-compose:$ver"
     fun activity_compose(ver: String = DYNAMIC_VERSION) = "androidx.activity:activity-compose:$ver"
+    fun constraintlayout_compose(ver: String = DYNAMIC_VERSION) = "androidx.constraintlayout:constraintlayout-compose:$ver"
 
     object Datastore {
         fun datastore(ver: String = DYNAMIC_VERSION) = "androidx.datastore:datastore:$ver"

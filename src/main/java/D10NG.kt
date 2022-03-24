@@ -15,5 +15,6 @@ object D10NG {
     fun DLSideBar_Compose(ver: String = DYNAMIC_VERSION) = "$group:DLSideBar_Compose:$ver"
     fun DLBasicJetpackComposeApp(ver: String = DYNAMIC_VERSION) = "$group:DLBasicJetpackComposeApp:$ver"
     fun NetworkDebugAssistant(ver: String = DYNAMIC_VERSION) = "$group:NetworkDebugAssistant:$ver"
+    fun DLQRCodeUtil(ver: String = DYNAMIC_VERSION) = "$group:DLQRCodeUtil:$ver"
 }
 
